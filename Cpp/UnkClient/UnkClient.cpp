@@ -29,7 +29,7 @@ int main() {
         VARIANT opt_null;
         opt_null.vt = VT_NULL;
 
-        pMapt->RunMacro(L"OpenMap", L"C:\\Users\\wuping\\Documents\\Caliper\\Maptitude 2023\\Tutorial\\BMP_SVR.MAP", 
+        pMapt->RunMacro(L"OpenMap", L"C:\\Users\\WXIN\\Documents\\Caliper\\Maptitude 2023\\Tutorial\\BMP_SVR.MAP", 
             /*NULL*/opt_null);
     }
     catch (_com_error& e) {

@@ -70,7 +70,7 @@ int main() {
         args[2].bstrVal = SysAllocString(L"OpenMap");
 
         args[1].vt = VT_BSTR;
-        args[1].bstrVal = SysAllocString(L"C:\\Users\\wuping\\Documents\\Caliper\\Maptitude 2023\\Tutorial\\BMP_SVR.MAP");
+        args[1].bstrVal = SysAllocString(L"C:\\Users\\WXIN\\Documents\\Caliper\\Maptitude 2023\\Tutorial\\BMP_SVR.MAP");
 
         args[0].vt = VT_NULL;
         DISPPARAMS dp = { args, NULL, 3, 0 };
